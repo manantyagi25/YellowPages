@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainBGColor">
+
+
+        <ImageView
+            android:id="@+id/topIV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/headingLL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/appLogoSize"
+                android:layout_height="@dimen/appLogoSize"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/logo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/logInHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/registerHeading"
+                android:textColor="@color/gradientBoxTextColor"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnim"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/headingLL"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="login.json"
+            app:lottie_loop="true" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/inputFieldsCL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lottieAnim">
+
+            <EditText
+                android:id="@+id/registerFirstName"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_top"
+                android:drawableStart="@drawable/ic_baseline_user_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintFirstName"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/registerLastName"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_center"
+                android:drawableStart="@drawable/ic_baseline_user_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintLastName"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/registerFirstName" />
+
+            <Spinner
+                android:id="@+id/deptSpinner"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_center"
+                android:elevation="@dimen/fieldElevation"
+                android:entries="@array/departmentNames"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:pointerIcon="arrow"
+                android:spinnerMode="dialog"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/registerLastName" />
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_center"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintEmail"
+                android:inputType="textEmailAddress"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/deptSpinner" />
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_center"
+                android:drawableStart="@drawable/ic_baseline_password_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintPassword"
+                android:inputType="textPassword"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/registerEmail" />
+
+            <EditText
+                android:id="@+id/registerConfirmPassword"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/design_center"
+                android:drawableStart="@drawable/ic_baseline_password_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintConfirmPassword"
+                android:inputType="textPassword"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/registerPassword" />
+
+            <EditText
+                android:id="@+id/registerPhoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/registerFieldsHeight"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/design_bottom"
+                android:drawableStart="@drawable/ic_baseline_new_phone_24"
+                android:drawablePadding="8dp"
+                android:elevation="@dimen/fieldElevation"
+                android:ems="10"
+                android:hint="@string/hintPhone"
+                android:inputType="phone"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/registerConfirmPassword" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:elevation="@dimen/fieldElevation"
+                android:focusable="true"
+                android:onClick="validateInputAndLoginUser"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/bottomIV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_test"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputFieldsCL"/>
+
+        <TextView
+            android:id="@+id/registerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="goToRegisterActivity"
+            android:text="@string/registerForAccount"
+            android:textColor="@color/gradientBoxTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

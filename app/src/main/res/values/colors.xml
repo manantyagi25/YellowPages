@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+<!--    <color name="colorAccent">#03DAC5</color>-->
+<!--    <color name="colorAccent">#FB7BA2</color>-->
+    <color name="colorAccent">#667eea</color>
+    <color name="mainTextColor" >@android:color/black</color>
+    <color name="uploadPhotoTextColor">@android:color/black</color>
+    <color name="uploadCLColor">#cfcfcf</color>
+    <color name="userInfoHeadingColor">@android:color/black</color>
+    <color name="alertBoxTextColor">@android:color/black</color>
+
+    <!--<color name="mainGradientStartColor">#FCE043</color>
+    <color name="mainGradientEndColor">#FB7BA2</color>-->
+
+    <color name="mainGradientStartColor">#667eea</color>
+<!--    <color name="mainGradientStartColor">#1ae4ff</color>-->
+    <color name="mainGradientEndColor">#764ba2</color>
+
+<!--    <color name="mainGradientStartColor">#E4B148</color>-->
+    <!--<color name="mainGradientStartColor">#EEB148</color>
+    <color name="mainGradientEndColor">#E8DD60</color>-->
+
+    <color name="headingColor">#a1a1a1</color>
+    <color name="userDetailsColor">@android:color/black</color>
+
+    <color name="drawableIconColor">@android:color/black</color>
+
+    <color name="newConcernIcon">#12d400</color>
+    <color name="closeConcernIcon">#cc2200</color>
+    <color name="settingsIcon">@android:color/black</color>
+    <color name="logOutIcon">#007ecc</color>
+    <color name="excelReportIcon">#008502</color>
+
+    <color name="gradientBoxTextColor">@android:color/white</color>
+
+    <!--<color name="cancelButtonStartEndColor">#400000</color>
+    <color name="cancelButtonCenterColor">#cc1f1f</color>-->
+
+    <color name="cancelButtonStartEndColor">#e84d4d</color>
+    <color name="cancelButtonCenterColor">#f52f2f</color>
+
+    <color name="riskItemLayoutBG">@android:color/white</color>
+
+    <color name="riskDataTVTextColor">@android:color/black</color>
+
+    <color name="mainBGColor">@android:color/white</color>
+
+    <color name="disabledStateColor">#999999</color>
+
+    <color name="yellowLight">#fcba03</color>
+    <color name="teal">#32bea6</color>
+    <color name="purple">#c138fc</color>
+    <color name="pink1">#fc388a</color>
+    <color name="noInternetColor">#333040</color>
+    <color name="cloudColor">#3486eb</color>
+    <color name="lightBlue">#1ae4ff</color>
+</resources>

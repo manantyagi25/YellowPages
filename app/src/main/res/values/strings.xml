@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">Yellow Pages</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="logInHeading">Log In</string>
+    <string name="logInButton">Log In</string>
+    <string name="title_activity_safety_concern">SafetyConcernActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragmentabel">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--Activity titles-->
+    <string name="newSafetyConcern">New Safety Concern</string>
+    <string name="newGembaWalk">New Gemba Walk</string>
+    <string name="viewHighRisks">High Risks</string>
+    <string name="viewLowRisks">Low Risks</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--    Hints-->
+    <string name="hintFirstName">First Name</string>
+    <string name="hintLastName">Last Name</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintUserName">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
+    <string name="hintPhone">Phone (Optional)</string>
+
+    <string name="hintSafetyConcern">Safety Concern</string>
+    <string name="hintLocation">Location of concern</string>
+
+
+    <string name="responsibleDept">Department to report to: </string>
+    <!--<string-array name="departmentNames">
+        <item>Engineering</item>
+        <item>Housekeeping</item>
+        <item>Security</item>
+        <item>Front Office</item>
+        <item>Human Resources</item>
+        <item>Food and Beverage</item>
+        <item>Food Production</item>
+        <item>Spa</item>
+        <item>Gym</item>
+        <item>Activity Centre</item>
+        <item>Accounts</item>
+        <item>Store</item>
+        <item>Microbiology</item>
+        <item>Horticulture</item>
+        <item>Training</item>
+        <item>Sports Complex</item>
+        <item>Sales</item>
+    </string-array>-->
+    <string-array name="departmentNames">
+        <item>Engineering</item>
+        <item>Housekeeping</item>
+        <item>Security</item>
+        <item>Front Office</item>
+        <item>Human Resources</item>
+        <item>Food and Beverage</item>
+        <item>Food Production</item>
+        <item>Spa</item>
+        <item>Gym</item>
+        <item>Activity Centre</item>
+        <item>Accounts</item>
+        <item>Store</item>
+        <item>Microbiology</item>
+        <item>Horticulture</item>
+        <item>Training</item>
+        <item>Sports Complex</item>
+        <item>Sales</item>
+    </string-array>
+    <string-array name="teamNames">
+        <!--<item>Team A</item>
+        <item>Team B</item>
+        <item>Team C</item>
+        <item>Team D</item>
+        <item>Team E</item>
+        <item>Team F</item>-->
+        <item>@string/teamA</item>
+        <item>@string/teamB</item>
+        <item>@string/teamC</item>
+        <item>@string/teamD</item>
+        <item>@string/teamE</item>
+        <item>@string/teamF</item>
+    </string-array>
+
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="teamC">Team C</string>
+    <string name="teamD">Team D</string>
+    <string name="teamE">Team E</string>
+    <string name="teamF">Team F</string>
+
+    <string name="uploadPhotoOfConcern">Upload Photo of the Concern\n(Max. 10MB)</string>
+    <string name="uploadPhotoOfTeam">Upload Photo of the Team\n(Max. 10MB)</string>
+    <string name="priorityHigh">High</string>
+    <string name="priorityLow">Low</string>
+    <string name="priority">Priority: </string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_gemba_walk">GembaWalkActivity</string>
+    <string name="teamName">Team Name</string>
+    <string name="title_activity_view_risks">ViewRisksActivity</string>
+    <string name="title_activity_view_risk_details">ViewRiskDetailsActivity</string>
+    <string name="riskDetails">Risk Details</string>
+    <string name="riskInformation">Risk Information</string>
+    <string name="reportedBy">Reported By</string>
+    <string name="reporterDept">Reporter\'s Department</string>
+    <string name="reporterTeam">Reporter\'s Team</string>
+    <string name="title">Title</string>
+    <string name="location">Location</string>
+    <string name="handledByDept">To be handled by</string>
+    <string name="time">Reporting time</string>
+    <string name="test">jkovbeiuvbwonfweuiofbiowhfioqwebfuiwebfuowebfuiwebufbwuifbwejgnvksdkveprhgwjofbhwiujq3nfuiwefgnwropgbiwegbewr</string>
+    <string name="closeConcern">Close Concern</string>
+    <string name="scheduleConcern">Set Reminder</string>
+    <string name="title_activity_close_concern">CloseConcernActivity</string>
+    <string name="closingConcern">Closing Concern</string>
+    <string name="causeOfConcern">Cause of concern</string>
+    <string name="immediateAction">Immediate corrective action taken</string>
+    <string name="permanentCounterMeasure">Permanent counter measure</string>
+    <string name="uploadProofImage">Upload Proof Image\n (Max. 10MB)</string>
+    <string name="closeConcernConfirm">Confirm and Close</string>
+    <string name="title_activity_schedule_concern">ScheduleConcernActivity</string>
+    <string name="scheduleForLater">Schedule A Reminder</string>
+    <string name="reasonForScheduling">Reason for scheduling</string>
+    <string name="setReminder">Set reminder</string>
+    <string name="remindAfter">Remind after: </string>
+    <string-array name="count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="interval">
+        <item>hours</item>
+        <item>days</item>
+    </string-array>
+
+    <string name="controlPanel">Control Panel</string>
+    <string name="userInfo">User Information</string>
+    <string name="userName">Name</string>
+    <string name="userUnit">Unit</string>
+    <string name="userDept">Department</string>
+
+    <string name="newConcern">Report a new concern</string>
+    <string name="closeAConcern">Close an existing concern</string>
+    <string name="manageConcerns">Manage Concerns</string>
+    <string name="accountSettings">Account settings</string>
+    <string name="manageAccount">Manage Account</string>
+    <string name="adminSettings">Admin Settings</string>
+    <string name="generateCodeHeading">Generate Department Change Code</string>
+    <string name="changeAdmin">Change Admin Account</string>
+    <string name="logOut">Log out</string>
+
+    <string-array name="availableActions">
+        <item>Report a new concern</item>
+        <item>Close an existing concern</item>
+    </string-array>
+
+    <string name="selectReportType">Select Report Type</string>
+    <string name="safetyRisk">Safety Risk</string>
+    <string name="gembaWalk">Gemba Walk</string>
+
+    <!--    <string name="viewRisks">Select Priority of Concerns</string>-->
+    <string name="viewRisks">Choose Priority</string>
+    <string name="highRisk">High Risks</string>
+    <string name="lowRisk">Low Risks</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="register">Register</string>
+    <string name="registerHeading">Register</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="registerForAccount">Don\'t have an account? Register</string>
+    <string name="logIn">Already have an account? Log in</string>
+
+    <!--    Firebase table fields-->
+    <string name="tableName">users</string>
+    <string name="personalInfo">pInfo</string>
+    <string name="accountInfo">accInfo</string>
+    <string name="info">info</string>
+    <string name="concerns">concerns</string>
+    <string name="allConcerns">allConcerns</string>
+    <string name="electrical">electrical</string>
+    <string name="plumbing">plumbing</string>
+    <string name="security">security</string>
+    <string name="deptWiseConcerns">depts</string>
+    <string name="active">active</string>
+    <string name="resolved">resolved</string>
+    <string name="concernCause">cause</string>
+    <string name="immediateActionFB">immAction</string>
+    <string name="permanentAction">permAction</string>
+    <string name="proofPhotoURL">pPhotoURL</string>
+    <string name="proof">proof</string>
+
+    <!--    SharedPreferences fields-->
+    <string name="name">userName</string>
+    <string name="unit">userUnit</string>
+    <string name="dept">userDept</string>
+
+    <!--    Risk item layout fields-->
+    <string name="riskIssueHeading">Issue Reported: </string>
+    <string name="riskIssueLocation">Location: </string>
+
+    <string name="viewTeam">View Team</string>
+    <string name="loadingPleaseWait">Loading, please wait…</string>
+    <string name="uploading">Uploading New Concern…</string>
+    <string name="title_activity_team_photo">TeamPhotoActivity</string>
+    <string name="viewTeamPhoto">Team Photo</string>
+
+    <string name="choosePic">From Gallery</string>
+    <string name="takePic">From Camera</string>
+    <string name="reminderServiceName">Yellow Card Reminder</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="concernDetails">Concern Details</string>
+    <string name="reporterDetails">Reporter Details</string>
+
+    <string name="checkYourInternet">Please check your internet connection and try again!</string>
+
+    <string name="saveToGallery">Save Image to Gallery</string>
+    <string name="savingImage">Saving image to device, please wait!</string>
+
+    <string name="sendingReportRequest">Sending report generation request…</string>
+    <string name="accountSettingsHeading">Account Settings</string>
+
+    <string name="restartForChanges">App restart may be required to view changes</string>
+
+    <!--    Settings headings-->
+    <string name="credentialsHeading">Credentials and Phone</string>
+    <string name="pInfoHeading">Personal Information</string>
+    <string name="advancedHeading">Advanced Settings</string>
+
+    <!--    Settings fields-->
+    <string name="updateEmail">Update Email</string>
+    <string name="updatePhone">Update Phone Number</string>
+    <string name="updatePassword">Update Password</string>
+    <string name="updateName">Update Display Name</string>
+    <string name="updateDept">Update Your Department</string>
+    <string name="updateUnit">Update Your Unit</string>
+    <string name="changePassword">Update Password</string>
+    <string name="deleteAccount">Delete your account</string>
+
+    <!--    Hints-->
+    <string name="hintCurrentPW">Enter Current Password</string>
+    <string name="hintNewPW">Enter New Password</string>
+    <string name="hintConfirmNewPW">Confirm New Password</string>
+
+    <string name="hintNewPhone">New Phone Number</string>
+
+    <string name="hintNewName">Enter New Name</string>
+
+    <string name="hintNewUnit">Enter New Unit</string>
+
+    <string name="update">Update</string>
+    <string name="delete">Confirm and Delete Account</string>
+
+    <string name="deleteAccountWarningHeading">Are you sure?</string>
+    <string name="deleteAccountWarningMessage1">Deleting account is permanent and can\'t be undone!</string>
+    <string name="deleteAccountWarningMessage2">You need to authenticate with your username and password to perform this action.</string>
+
+    <string name="generateCode">Generate Code</string>
+    <string name="hintUIDToChangeDeptOf">Enter UID of User</string>
+
+    <string name="generatedCodeHeading">Code for this user</string>
+
+    <string name="deptChangeCodes">deptChangeCodes</string>
+    <string name="hintEnterCode">Enter the 4 digit code</string>
+    <string name="verifyCode">Verify Code</string>
+    <string name="verifyingCode">Verifying code…</string>
+    <string name="verificationSuccessful">Verification successful!</string>
+    <string name="selectNewDept">Select your new department</string>
+
+    <string name="showUID">Show Account UID</string>
+    <string name="headingUID">Account UID</string>
+
+    <string name="copyToClipboard">Copy</string>
+    <string name="adminUID">admin</string>
+
+    <string name="changeAdminMessage">Admin account provides additional options which can be abused if handed over to an ill-willing person.</string>
+    <string name="authenticate">Authenticate</string>
+
+    <string name="uidOfNewAdmin">Enter UID of new admin user</string>
+    <string name="makeAdmin">Make Admin</string>
+
+    <string name="noConcernsFound1">Looks like all concerns have been fixed here!</string>
+    <string name="noConcernsFound2">Good job! Take a break.</string>
+
+    <string name="noInternetTitle">No internet connection found!</string>
+    <string name="noInternetMessage">An internet connection is required to use app\'s features. Kindly restore your internet and try again.</string>
+
+    <string name="exit">Exit</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="sendLink">Send Reset Link</string>
+    <string name="hintResetEmail">Enter email linked with your account</string>
+
+    <string name="uploadingAndClosingConcern">Uploading data and closing concern…</string>
+
+    <string name="sendingReportGenerationRequestTitle">Sending Report Generation Request…</string>
+    <string name="sendingReportGenerationRequestMessage">This can take a while. Please do not close the app until the process finishes.</string>
+
+    <string name="reportGenerationRecords">reportTimes</string>
+    <string name="activeConcernsReportTimestamp">AC</string>
+    <string name="closedConcernsReportTimestamp">CC</string>
+    <string name="reportLastGeneratedTimestamp">lastGenOn</string>
+
+    <string name="deptOfNewUser">Department you belong to</string>
+    <string name="reportGeneration">Reports</string>
+
+    <string name="teamPhotos">teamPhotos</string>
+    <string name="loading">Checking photo for this team</string>
+
+    <string name="generateReport">Generate</string>
+    <string name="downloadReport">Download</string>
+    <string name="generateReportOfOpenConcernsInfo">Generate Active Concerns Report</string>
+    <string name="generateReportOfClosedConcernsInfo">Generate Closed Concerns Report</string>
+    <string name="downloadReportOfOpenConcernsInfo">Download Active Concerns Report</string>
+    <string name="downloadReportOfClosedConcernsInfo">Download Closed Concerns Report</string>
+
+    <string name="generateReportOfOpenConcerns">Active Concerns Report</string>
+    <string name="generateReportOfClosedConcerns">Closed Concerns Report</string>
+    <string name="downloadReportOfOpenConcerns">Active Concerns Report</string>
+    <string name="downloadReportOfClosedConcerns">Closed Concerns Report</string>
+
+    <string name="reportFeatureInfoDialogHeading">In order to maintain integrity of data, report can only be generated by the Security department.
+        Moreover, reports of closed concerns can only be generated after certain time intervals. Here is a detailed information on which of the
+        options shown here are available to which of the department(s), and how to use them: </string>
+
+    <string name="generateReportOpenConcernsOptionInfo">This option sends a request to the server to generate a report of all
+        open concerns reported after the last time the report was generated, but keeps them stored on the server. This option is
+        only available to the Security department, but it will only be visible only after certain time has passed since the last
+        request.</string>
+    <string name="generateReportClosedConcernsOptionInfo">This option sends a request to the server to generate a report of all
+        concerns closed after the last time the report was generated, and then deletes the data of closed concerns from the
+        server. This option is only available to the Security department, but it will only be visible only after certain time has
+        passed since the last request.</string>
+
+    <string name="downloadReportOpenConcernsOptionInfo">Available to all departments, this option simply downloads the latest
+        report of open concerns available on the server.</string>
+    <string name="downloadReportClosedConcernsOptionInfo">Available to all departments, this option simply downloads the latest
+        report of closed concerns available on the server.</string>
+
+    <string name="understoodInfo">I understand, don\'t show me this again</string>
+    <string name="dontShowReportDialog">dontShowReportDialog</string>
+    <string name="closeDialog">Close</string>
+    <string name="viewReports">View Reports</string>
+
+    <string name="pleaseNote">Please Note:</string>
+    <string name="TIForActiveConcerns">1. Active Concerns Report currently can be generated once every day.</string>
+    <string name="TIForClosedConcerns">2. Closed Concerns Report currently can be generated once every month.</string>
+
+    <string name="TCHeading">Terms and Conditions</string>
+    <string name="TCContent">Welcome to Yellow Pages!\n\n
+
+        These terms and conditions outline the rules and regulations for the use of Yellow Pages\'s app.\n\n
+
+        By accessing this app we assume you accept these terms and conditions. Do not continue to use Yellow Pages if you do not
+        agree to take all of the terms and conditions stated on this page.\n\n
+
+        The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all
+        Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms
+        and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us",
+        refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary
+        to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting
+        the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing
+        law of India. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she
+        or they, are taken as interchangeable and therefore as referring to same.</string>
+
+    <string name="cookiesHeading">Cookies</string>
+    <string name="cookiesContent">We neither collect or use any cookies for this app. No information regarding you or which can be
+        used to identify you is not collected, apart from the initial registration process and any subsequent account
+        information changes made by you.</string>
+
+    <string name="licenseHeading">License</string>
+    <string name="licenseContent"> Unless otherwise stated, Yellow Pages and/or its licensors own the intellectual property rights
+        for all material on Yellow Pages. All intellectual property rights are reserved. You may access this from Yellow Pages
+        for your own personal use subjected to restrictions set in these terms and conditions.\n\n
+
+        You must not:\n\n
+
+        - Republish material from Yellow Pages\n
+        - Sell, rent or sub-license material from Yellow Pages\n
+        - Reproduce, duplicate or copy material from Yellow Pages\n
+        - Redistribute content from Yellow Pages\n\n
+
+        This Agreement shall begin on the date hereof.\n\n
+
+        Parts of this app offer an opportunity for users to post and exchange opinions and information in certain areas of the
+        app. Yellow Pages does not filter, edit, publish or review information prior to their presence on the app. Such information
+        do not reflect the views and opinions of Yellow Pages,its agents and/or affiliates. Such information reflects the views and
+        opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Yellow Pages shall
+        not be liable for such information or for any liability, damages or expenses caused and/or suffered as a result of any use
+        of and/or posting of and/or appearance of such information on this app.\n\n
+
+        Yellow Pages reserves the right to monitor all such information and to remove any such information which can be considered
+        inappropriate, offensive or causes breach of these Terms and Conditions.\n\n
+
+        You warrant and represent that:\n\n
+
+        - You are entitled to post information on our app and have all necessary licenses and consents to do so;\n
+        - The information you provide does not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;\n
+        - The information you provide does not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy\n
+        - The information you provide will not be used to solicit or promote business or custom or present commercial activities or unlawful activity. \n\n
+
+        You hereby grant Yellow Pages a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
+
+    </string>
+
+    <string name="disclaimerHeading">Disclaimer</string>
+    <string name="disclaimerContent">To the maximum extent permitted by applicable law, we exclude all representations,
+        warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:\n\n
+
+        - limit or exclude our or your liability for death or personal injury; \n
+        - limit or exclude our or your liability for fraud or fraudulent misrepresentation;\n
+        - limit any of our or your liabilities in any way that is not permitted under applicable law; or\n
+        - exclude any of our or your liabilities that may not be excluded under applicable law.\n\n
+
+        The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: \n\n
+        (a) are subject to the preceding paragraph; and \n
+        (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for
+        breach of statutory duty.\n\n
+
+        As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</string>
+
+    <string name="accept">I accept</string>
+    <string name="decline">I decline</string>
+
+    <string name="TCAccepted">TCAccepted</string>
+
+</resources>

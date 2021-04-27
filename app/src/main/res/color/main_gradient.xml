@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<gradient xmlns:android="http://schemas.android.com/apk/res/android"
+    android:startColor="@color/mainGradientStartColor"
+    android:endColor="@color/mainGradientEndColor"
+    android:angle="0"/>-->
+
+<gradient xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:offset="0.0" android:color = "@color/mainGradientStartColor"/>
+    <item android:offset="1.0" android:color = "@color/mainGradientEndColor"/>
+</gradient>

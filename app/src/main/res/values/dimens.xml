@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appLogoSize">70dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alertBoxImageSize">60dp</dimen>
+    <dimen name="logInButtonConstraints">50dp</dimen>
+    <dimen name="userInfoTVTextSize">18sp</dimen>
+    <dimen name="dropDownElevation">2dp</dimen>
+    <dimen name="uploadBoxElevation">4dp</dimen>
+    <dimen name="riskItemLayoutElevation">2dp</dimen>
+    <dimen name="riskFieldsTextSize">20sp</dimen>
+    <dimen name="riskDetailsCLMargin">16dp</dimen>
+    <dimen name="infoCardElevations">4dp</dimen>
+    <dimen name="mainScreenCardElevation">2dp</dimen>
+    <dimen name="headingElevation">4dp</dimen>
+    <dimen name="noConcernsIVSize">200dp</dimen>
+    <dimen name="userDP">100dp</dimen>
+    <dimen name="imageSourceDimen">150dp</dimen>
+    <dimen name="fieldElevation">4dp</dimen>
+    <dimen name="specialFieldsDesignCornerRadius">30dp</dimen>
+    <dimen name="registerFieldsHeight">60dp</dimen>
+    <dimen name="reportGenerationIconDimens">24dp</dimen>
+</resources>
