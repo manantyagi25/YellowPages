@@ -1,4 +1,5 @@
 # YellowPages
+### [View on Play Store](https://play.google.com/store/apps/details?id=com.aventum.yellowpages)
 
 A professional Android app that allows hotels to report, track and close concerns for easy management. Now available on Play Store.
 
